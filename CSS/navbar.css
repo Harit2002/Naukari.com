@@ -1,0 +1,115 @@
+#navbar {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  color: #344056;
+  position: sticky;
+}
+.login {
+  background-color: transparent;
+  width: 80px;
+  padding: 10px 0px;
+  border: 1px solid #6682ff;
+  color: #6682ff;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.login:hover {
+  background-color: #6682ff15;
+}
+.register {
+  width: 100px;
+  border: none;
+  padding: 10px 0px;
+  background-color: #ff7555;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.register > a {
+  text-decoration: none;
+  color: white;
+}
+.employer {
+  border-left: 1px solid grey;
+  height: 20px;
+  margin: auto;
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  font-size: 16px;
+}
+.button {
+  width: 250px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#navbar > ul {
+  list-style: none;
+  display: flex;
+  width: 600px;
+  height: auto;
+  align-items: center;
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+#navbar > ul > li {
+  margin: 0px 10px;
+}
+.dropdown li:hover{
+  color: #6682ff;
+}
+.dropdown > div:nth-child(2) {
+  width: auto;
+  margin: auto;
+  border-radius: 20px;
+  padding: 18px 10px;
+  margin: 30px 0px 0px -300px;
+  line-height: 35px;
+  position: absolute;
+  justify-content: space-evenly;
+  list-style: none;
+  display: none;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.dropdown > div:nth-child(2) > ul {
+  list-style: none;
+  width: 220px;
+  border-left: 1px solid rgba(128, 128, 128, 0.308);
+}
+.dropdown > div:nth-child(2) > ul:nth-child(1) {
+  border: none;
+}
+.dropdown div:nth-child(1):hover + div {
+  display: flex;
+}
+.dropdown div:nth-child(1):hover hr {
+  display: block;
+}
+.dropdown div:nth-child(1) {
+  height: 15px;
+}
+.dropdown div:nth-child(1):hover {
+  cursor: pointer;
+}
+.dropdown div:nth-child(1) > hr {
+  z-index: 2;
+  display: none;
+  height: 5px;
+  background-color: #ff7555;
+  border: none;
+  border-radius: 5px;
+}
+#navbar > img {
+  height: 26px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
