@@ -3,3 +3,44 @@
   border-radius: 20px;
   border: 1px solid rgb(43, 55, 93);
 }
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+ .signup button{
+    width: auto;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 22px;
+    color:  rgba(128, 128, 128, 0.669);
+    display: flex;
+    background-color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+.signup img{
+  width: 22px;
+}
+.container>div{
+  width: 45%;
+  margin: auto;
+}
+label {
+  font-size: 14px;
+  color: #344056ee;
+  font-weight: bold;
+}
+input::-webkit-input-placeholder {
+  color: rgba(141, 141, 141, 0.442);
+}
+input {
+  font-size: 16px;
+  height: 35px;
+  width: 90%;
+  padding: 5px 8px;
+  border: 1px solid #34405663;
+  border-radius: 4px;
+}
