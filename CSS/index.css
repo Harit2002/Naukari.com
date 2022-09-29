@@ -198,4 +198,6 @@ p {
   border: 1px solid #eaf1f5;
   border-radius: 16px 6px;
 }
-
+.about{
+    display: grid;
+}
