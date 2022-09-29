@@ -1,4 +1,7 @@
+
 #navbar {
+  width: 90%;
+  margin: auto;
   font-family: sans-serif;
   display: flex;
   justify-content: space-evenly;
@@ -6,7 +9,7 @@
   position: sticky;
 }
 .login {
-  background-color: transparent;
+  background-color: white;
   width: 80px;
   padding: 10px 0px;
   border: 1px solid #6682ff;
@@ -26,6 +29,10 @@
   border-radius: 30px;
   font-size: 16px;
   font-weight: bold;
+}
+.register:hover{
+  background-color: #ff7455ce;
+  cursor: pointer;
 }
 .register > a {
   text-decoration: none;
@@ -67,6 +74,7 @@
 }
 .dropdown > div:nth-child(2) {
   width: auto;
+  background-color: white;
   margin: auto;
   border-radius: 20px;
   padding: 18px 10px;
@@ -99,7 +107,6 @@
   cursor: pointer;
 }
 .dropdown div:nth-child(1) > hr {
-  z-index: 2;
   display: none;
   height: 5px;
   background-color: #ff7555;
