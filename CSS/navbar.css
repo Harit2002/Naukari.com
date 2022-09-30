@@ -1,4 +1,3 @@
-
 #navbar {
   width: 90%;
   margin: auto;
@@ -13,10 +12,13 @@
   width: 80px;
   padding: 10px 0px;
   border: 1px solid #6682ff;
-  color: #6682ff;
   border-radius: 30px;
   font-size: 16px;
   font-weight: bold;
+}
+.login a {
+  text-decoration: none;
+  color: #6682ff;
 }
 .login:hover {
   background-color: #6682ff15;
@@ -30,7 +32,7 @@
   font-size: 16px;
   font-weight: bold;
 }
-.register:hover{
+.register:hover {
   background-color: #ff7455ce;
   cursor: pointer;
 }
@@ -69,7 +71,7 @@
 #navbar > ul > li {
   margin: 0px 10px;
 }
-.dropdown li:hover{
+.dropdown li:hover {
   color: #6682ff;
 }
 .dropdown > div:nth-child(2) {
@@ -91,6 +93,10 @@
   width: 220px;
   border-left: 1px solid rgba(128, 128, 128, 0.308);
 }
+.dropdown > div:nth-child(2) > ul:hover {
+  display: flex;
+
+}
 .dropdown > div:nth-child(2) > ul:nth-child(1) {
   border: none;
 }
@@ -99,6 +105,9 @@
 }
 .dropdown div:nth-child(1):hover hr {
   display: block;
+}
+.dropdown div:nth-child(1) hr:hover .dropdown div:nth-child(1){
+  display: flex;
 }
 .dropdown div:nth-child(1) {
   height: 15px;
@@ -119,4 +128,3 @@
   display: flex;
   align-items: center;
 }
-
