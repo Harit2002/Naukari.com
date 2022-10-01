@@ -1,0 +1,150 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  margin-left: -55px;
+  width: 250px;
+}
+#navbar {
+  margin-top: 0px;
+  padding-top: 0px;
+  background-color: white;
+}
+#navbar input {
+  background-color: #fff;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid rgb(180, 180, 180);
+}
+.container {
+  width: 65%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+.signup button {
+  margin-top: 30px;
+  width: 250px;
+  font-size: 15px;
+  font-weight: lighter;
+  padding: 5px 10px;
+  border-radius: 22px;
+  color: rgba(128, 128, 128, 0.804);
+  display: flex;
+  background-color: white;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  align-items: center;
+  justify-content: center;
+}
+.signup img {
+  width: 22px;
+  margin-right: auto;
+}
+.container > div {
+  width: 45%;
+  margin: auto;
+}
+#info ul {
+  list-style: none;
+}
+#info {
+  position: relative;
+  z-index: -1;
+  width: 60%;
+  border: 1px solid rgba(128, 128, 128, 0.167);
+  border-radius: 2px;
+  line-height: 35px;
+  padding: 50px 50px 100px 50px;
+}
+#info i{
+font-size: 20px;
+color: #4a90e2;
+position: relative;
+top: 4px;
+}
+label {
+  font-size: 14px;
+  color: #344056ee;
+  font-weight: bold;
+}
+input::-webkit-input-placeholder {
+  color: rgba(141, 141, 141, 0.442);
+}
+input {
+  margin-bottom: 30px;
+  font-size: 16px;
+  height: 30px;
+  width: 90%;
+  padding: 5px 8px;
+  border: 1px solid #34405663;
+  border-radius: 2px;
+}
+#relative {
+  width: 227px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+input[type="submit"] {
+  width: 95%;
+  height: 35px;
+  color: white;
+  margin-top: 20px;
+  background-color: #4a90e2;
+  border: none;
+}
+#login {
+  /* z-index: 1; */
+  width: 40%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 0 9px 16px 0 rgb(0 106 194 / 20%);
+  padding: 30px 50px;
+}
+label {
+  font-size: 12px;
+  margin-bottom: -22px;
+}
+.pwd {
+  color: blue;
+  cursor: pointer;
+  font-size: 10px;
+  float: right;
+  margin-top: -25px;
+  color: #4a90e2;
+}
+#login > p {
+  text-align: center;
+  color: #4a90e2;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.signup {
+  width: 80%;
+  color: grey;
+  margin: auto;
+  margin-top: -10px;
+  text-align: center;
+}
+#login hr {
+  width: 90%;
+  color: grey;
+}
+#info button {
+  font-weight: bold;
+  height: 40px;
+  width: 200px;
+  margin-top: 30px;
+  border: 1px solid #4a90e2;
+  color: #4a90e2;
+  background-color: white;
+}
+h3 + ul {
+  font-size: 14px;
+}

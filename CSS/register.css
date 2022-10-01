@@ -1,0 +1,178 @@
+body {
+  background-color: aliceblue;
+  font-family: sans-serif;
+
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+}
+/* .navbar1{
+    background-color: white;
+} */
+.sticky > div {
+  width: 100%;
+  padding: 20px;
+  line-height: 30px;
+  background-color: white;
+  z-index: -1;
+  padding-top: 50px;
+  margin-top: -50px;
+  border-radius: 10px;
+  border: 1px dashed rgba(128, 128, 128, 0.518);
+}
+.sticky {
+  z-index: -1;
+  margin: 100px 20px 0px 100px;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  width: 250px;
+}
+.experience i{
+  font-size: 28px;
+  color: rgba(128, 128, 128, 0.588);
+  display: grid;
+  place-items: center;
+}
+.sticky > img {
+  width: 100px;
+}
+.sticky i{
+  font-size: 16px;
+  color: #18c1a3;
+}
+.form {
+  height: 870px;
+  border-radius: 10px;
+  width: 65%;
+  padding: 50px;
+  background-color: white;
+  float: right;
+  display: flex;
+  margin: 0px 50px;
+}
+.left{
+    width: 70%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+.experience {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  font-size: 16px;
+  height: 35px;
+  width: 90%;
+  padding: 5px 8px;
+  border: 1px solid #34405663;
+  border-radius: 4px;
+}
+input::-webkit-input-placeholder {
+  color: rgba(141, 141, 141, 0.442);
+}
+h1 {
+  padding-bottom: 10px;
+}
+.email,
+.pwd,
+.mobile {
+  font-size: 14px;
+  color: #344056d4;
+  padding: 2px 0px;
+}
+label {
+  font-size: 14px;
+  color: #344056ee;
+  font-weight: bold;
+}
+.experience > div {
+  display: flex;
+  gap: 10px;
+  border-radius: 18px 6px 18px 6px;
+  padding: 10px;
+  color: #344056d4;
+  border: 1px solid #34405649;
+}
+.experience > div  h3 {
+  color: #457eff;
+}
+.resume > div > span {
+  background-color: #ff7555;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 20px;
+  margin-left: -6px;
+}
+.resume > div {
+  width: 400px;
+  border: 1px solid #34405649;
+  padding: 7px 5px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #3440568a;
+}
+.resume > p {
+  color: #344056e0;
+  font-size: 14px;
+}
+input[type="submit"] {
+  background-color: #457eff;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: none;
+  height: 50px;
+  width: 188px;
+}
+.whatsapp > img {
+  height: 20px;
+  margin-left: 2px;
+  margin-bottom: -5px;
+}
+.info {
+  font-size: 13px;
+  color: #344056d3;
+}
+.info > span {
+  color: rgb(0, 89, 255);
+}
+.right img{
+    width: 22px ;
+}
+.right button{
+    width: 110px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 22px;
+    color:  rgb(0, 89, 255);
+    display: flex;
+    background-color: white;
+    border: 1px solid  rgb(0, 89, 255);
+    justify-content: space-between;
+    align-items: center;
+}
