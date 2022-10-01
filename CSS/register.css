@@ -44,8 +44,18 @@ body {
   align-content: center;
   width: 250px;
 }
+.experience i{
+  font-size: 28px;
+  color: rgba(128, 128, 128, 0.588);
+  display: grid;
+  place-items: center;
+}
 .sticky > img {
   width: 100px;
+}
+.sticky i{
+  font-size: 16px;
+  color: #18c1a3;
 }
 .form {
   height: 870px;
@@ -97,12 +107,14 @@ label {
   font-weight: bold;
 }
 .experience > div {
+  display: flex;
+  gap: 10px;
   border-radius: 18px 6px 18px 6px;
   padding: 10px;
   color: #344056d4;
   border: 1px solid #34405649;
 }
-.experience > div > h3 {
+.experience > div  h3 {
   color: #457eff;
 }
 .resume > div > span {
@@ -125,15 +137,16 @@ label {
   color: #344056e0;
   font-size: 14px;
 }
-.info > button {
+input[type="submit"] {
   background-color: #457eff;
   color: white;
   font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
-  border-radius: 20px;
-  padding: 10px 16px;
+  border-radius: 30px;
   border: none;
+  height: 50px;
+  width: 188px;
 }
 .whatsapp > img {
   height: 20px;

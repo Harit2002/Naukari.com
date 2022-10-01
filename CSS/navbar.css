@@ -1,11 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
 #navbar {
-  width: 90%;
+  width: 1200px;
   margin: auto;
   font-family: sans-serif;
   display: flex;
-  justify-content: space-evenly;
   color: #344056;
   position: sticky;
+}
+.nev{
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.09) 0px 2px 8px 0px;
+  padding: 10px 0px;
 }
 .login {
   background-color: white;
@@ -20,6 +28,10 @@
   text-decoration: none;
   color: #6682ff;
 }
+#navbar li a{
+  text-decoration: none;
+  color: #344056;
+}
 .login:hover {
   background-color: #6682ff15;
 }
@@ -28,6 +40,7 @@
   border: none;
   padding: 10px 0px;
   background-color: #ff7555;
+  color: white;
   border-radius: 30px;
   font-size: 16px;
   font-weight: bold;
@@ -41,6 +54,8 @@
   color: white;
 }
 .employer {
+  cursor: pointer;
+  position: relative;
   border-left: 1px solid grey;
   height: 20px;
   margin: auto;
@@ -51,9 +66,34 @@
   width: 150px;
   font-size: 16px;
 }
+.employer i {
+  margin-left: 6px;
+  font-size: 14px;
+  color: #161616;
+}
+.employer:hover ul{
+  display: block;
+}
+.employer:hover{
+  color: black;
+}
+.employer ul{
+  display: none;
+  background-color: white;
+  position: absolute;
+  top: 18px;
+  line-height: 32px;
+  list-style: none;
+  padding: 16px 26px 14px 30px;
+  border-radius: 16px 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .button {
-  width: 250px;
+  width: 230px;
+  padding-left: 200px;
+  padding-right: -120px;
   height: 40px;
+  margin-left: 180px;
   margin: auto;
   display: flex;
   align-items: center;
@@ -62,7 +102,8 @@
 #navbar > ul {
   list-style: none;
   display: flex;
-  width: 600px;
+  width: 450px;
+  padding-left: 0px;
   height: auto;
   align-items: center;
   font-size: 16px;
@@ -95,7 +136,6 @@
 }
 .dropdown > div:nth-child(2) > ul:hover {
   display: flex;
-
 }
 .dropdown > div:nth-child(2) > ul:nth-child(1) {
   border: none;
@@ -103,10 +143,13 @@
 .dropdown div:nth-child(1):hover + div {
   display: flex;
 }
+.dropdown div:nth-child(1):hover{
+  color: #161616;
+}
 .dropdown div:nth-child(1):hover hr {
   display: block;
 }
-.dropdown div:nth-child(1) hr:hover .dropdown div:nth-child(1){
+.dropdown div:nth-child(1) >hr:hover .dropdown div:nth-child(2) {
   display: flex;
 }
 .dropdown div:nth-child(1) {
@@ -115,7 +158,7 @@
 .dropdown div:nth-child(1):hover {
   cursor: pointer;
 }
-.dropdown div:nth-child(1) > hr {
+ hr {
   display: none;
   height: 5px;
   background-color: #ff7555;

@@ -11,6 +11,9 @@
   align-items: center;
   justify-items: center;
 }
+#container i{
+  color: #c1c3c5;
+}
 #search {
   width: 90%;
   height: 40px;
@@ -81,6 +84,7 @@
   justify-content: center;
   gap: 15px;
 }
+
 .grid > div:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
